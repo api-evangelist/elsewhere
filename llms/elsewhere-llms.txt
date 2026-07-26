@@ -1,0 +1,22 @@
+# Elsewhere
+
+> Elsewhere (Elsewhere Communities Inc.) is a San Francisco video game studio founded in 2024 by Paul Sawaya, part of cohort 001 of a16z SPEEDRUN. It builds games that use generative AI in a humanistic direction, treating AI as "a normal technology". Elsewhere previously worked on Elsewhere Core, an unfinished co-op action roguelike, and is now building something new. It is a consumer game studio and publishes no public API, developer portal, or SDKs.
+
+## Company
+
+- [Elsewhere](https://elsewhere.zone/): Studio homepage and manifesto.
+- [Elsewhere Core](https://elsewhere.zone/unfinished_game/): A memorial page for Elsewhere Core, an unfinished co-op action roguelike set in the realms of the dreaming mind.
+- [Careers](https://app.dover.io/Elsewhere/careers/3e7bba3e-a4a7-4285-9999-58d78d242ffa): Open roles at the studio.
+- [Contact](mailto:info@elsewhere.zone): General contact address.
+- [GitHub](https://github.com/elsewhere-zone): Studio GitHub organization — desktop release channel plus Godot multiplayer tooling (netfox) and comic-chat-reborn.
+- [a16z SPEEDRUN profile](https://speedrun.a16z.com/companies/elsewhere): Accelerator profile, cohort 001.
+
+## API surface
+
+No public API. As of 2026-07-20 Elsewhere publishes no OpenAPI or AsyncAPI description, no developer portal or API reference, no SDKs or CLI, no MCP server, and no /.well-known/ discovery documents (all probed and returned 404). This entry exists as a company profile in the API Evangelist network, not as an API provider profile.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/elsewhere/refs/heads/main/apis.yml): APIs.json 0.20 company profile.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/elsewhere/refs/heads/main/security/elsewhere-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture for elsewhere.zone.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/elsewhere/refs/heads/main/well-known/elsewhere-well-known.yml): Probe results for the standard discovery paths.

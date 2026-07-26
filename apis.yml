@@ -1,22 +1,74 @@
 aid: elsewhere
 name: Elsewhere
-description: Elsewhere is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Elsewhere (Elsewhere Communities Inc.) is a San Francisco based video
+  game studio founded in 2024 by Paul Sawaya, previously co-founder and CTO of Human
+  Interest. The studio was part of cohort 001 of a16z SPEEDRUN, the Andreessen Horowitz
+  accelerator for games and interactive media. Elsewhere describes itself as "a new
+  kind of video game studio emboldened by the desire to rethink the industry", treating
+  artificial intelligence as a normal technology and building games that use generative
+  AI in a humanistic direction rather than a dystopian one. The studio previously worked
+  on a multiplayer roguelike — games "that feel like an adventure you go on with your
+  friends, and the adventure is never the same twice" — and is currently building something
+  new. Elsewhere is a consumer game studio with no public developer platform: as of
+  this enrichment pass it publishes no API, no developer portal, no SDKs, and no machine-readable
+  discovery documents.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://elsewhere.zone/
 url: https://raw.githubusercontent.com/api-evangelist/elsewhere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Gaming
+- Video Games
+- Game Studio
+- Generative AI
+- Artificial Intelligence
+- Consumer
+- Entertainment
+- San Francisco
+- a16z SPEEDRUN
 apis: []
+common:
+- type: DomainSecurity
+  url: security/elsewhere-domain-security.yml
+- type: Website
+  url: https://elsewhere.zone/
+- type: Careers
+  url: https://app.dover.io/Elsewhere/careers/3e7bba3e-a4a7-4285-9999-58d78d242ffa
+- type: Contact
+  url: mailto:info@elsewhere.zone
+- type: Investor
+  url: https://speedrun.a16z.com/companies/elsewhere
+- type: GitHubOrganization
+  url: https://github.com/elsewhere-zone
+- type: LLMsTxt
+  url: llms/elsewhere-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: 2026-07-20
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

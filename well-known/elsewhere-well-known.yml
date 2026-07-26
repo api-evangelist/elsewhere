@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://elsewhere.zone
+host: https://elsewhere.zone
+summary: >-
+  Elsewhere publishes no /.well-known/ discovery surface. Every standard discovery
+  document was probed and returned 404. The site is a single-page marketing site for
+  a consumer game studio with no developer platform, so this is an expected result
+  rather than a gap in an API program.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
