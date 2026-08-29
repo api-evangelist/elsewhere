@@ -12,6 +12,17 @@ description: 'Elsewhere (Elsewhere Communities Inc.) is a San Francisco based vi
   new. Elsewhere is a consumer game studio with no public developer platform: as of
   this enrichment pass it publishes no API, no developer portal, no SDKs, and no machine-readable
   discovery documents.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
