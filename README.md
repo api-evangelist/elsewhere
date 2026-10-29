@@ -64,20 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Elsewhere (Elsewhere Communities Inc.) is a San Francisco video game studio founded in 2024 by Paul Sawaya, previously co-founder and CTO of Human Interest. The studio was part of cohort 001 of a16z SPEEDRUN. Elsewhere describes itself as "a new kind of video game studio emboldened by the desire to rethink the industry", treating artificial intelligence as a normal technology and building games that use generative AI in a humanistic direction. It previously worked on Elsewhere Core, an unfinished co-op action roguelike, and is now building something new.
+Elsewhere (Elsewhere Communities Inc.) is a San Francisco based video game studio founded in 2024 by Paul Sawaya, previously co-founder and CTO of Human Interest. The studio was part of cohort 001 of a16z SPEEDRUN, the Andreessen Horowitz accelerator for games and interactive media. Elsewhere describes itself as "a new kind of video game studio emboldened by the desire to rethink the industry", treating artificial intelligence as a normal technology and building games that use generative AI in a humanistic direction rather than a dystopian one. The studio previously worked on a multiplayer roguelike — games "that feel like an adventure you go on with your friends, and the adventure is never the same twice" — and is currently building something new. Elsewhere is a consumer game studio with no public developer platform: as of this enrichment pass it publishes no API, no developer portal, no SDKs, and no machine-readable discovery documents.
 
-- Website: https://elsewhere.zone/
-- GitHub: https://github.com/elsewhere-zone
-- a16z SPEEDRUN: https://speedrun.a16z.com/companies/elsewhere
+**Areas:** Company · Games · Gaming · Video Games · Game Studio · Generative AI · Artificial Intelligence · Consumer · Entertainment · San Francisco · a16z Speedrun
 
-Backed by: a16z (SPEEDRUN, cohort 001)
+## Elsewhere on APIs.io
 
-## API surface
+Everything profiled for Elsewhere is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/elsewhere/](https://apis.io/providers/elsewhere/)** — or go straight to one of the APIs or properties below.
 
-None. As of the 2026-07-20 enrichment pass Elsewhere publishes no public API, developer portal, API reference, SDKs, CLI, MCP server, or `/.well-known/` discovery documents (all probed, all 404). This repo is a company profile, not an API provider profile.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `security/elsewhere-domain-security.yml` — probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
-- `well-known/elsewhere-well-known.yml` — discovery-path probe results
-- `llms/elsewhere-llms.txt` — generated llms.txt company summary
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Elsewhere Domain Security](https://apis.io/security/elsewhere/elsewhere-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://elsewhere.zone/)
+- [GitHub](https://github.com/elsewhere-zone)
+
+## API Evangelist rating
+
+**Kin Score 4.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/elsewhere/](https://apis.io/providers/elsewhere/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Elsewhere: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/elsewhere/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
